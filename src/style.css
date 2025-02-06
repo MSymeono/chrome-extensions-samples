@@ -1,31 +1,31 @@
 #waldo {
-    height: 25px;
-    width: 25px;
-    position: absolute;
-  }
+  height: 25px;
+  width: 25px;
+  position: absolute;
+}
 
 #pikachu {
-    height: 25px;
-    width: 25px;
-    position: absolute;
- }
-
-#link{
-    height: 25px;
-    width: 25px;
-    position: absolute;
+  height: 25px;
+  width: 25px;
+  position: absolute;
 }
 
-#board{
-    height: 750px;
-    width: 750px;
-    position: relative;
-    background-image:'assets/waldo_background.jpg';
-    background-size: cover;
-    background-position: center;
+#link {
+  height: 25px;
+  width: 25px;
+  position: absolute;
 }
 
-#board2{
+#board {
+  height: 750px;
+  width: 750px;
+  position: relative;
+  background-image: url('assets/pikachu_background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* #board2{
   height: 750px;
   width: 925px;
   position: relative;
@@ -41,23 +41,23 @@
   background-image: 'assets/link_background.png';
   background-size: cover;
   background-position: center;
-}
+} */
 
-#button{
+#button {
   height: 26px;
   width: 26px;
   opacity: 0;
   position: absolute;
 }
 
-#button2{
+#button2 {
   height: 26px;
   width: 26px;
   opacity: 0;
   position: absolute;
 }
 
-#button3{
+#button3 {
   height: 26px;
   width: 26px;
   opacity: 0;
