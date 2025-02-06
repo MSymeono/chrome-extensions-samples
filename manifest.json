@@ -1,18 +1,19 @@
 {
-    "name": "Where's Waldo",
-    "description": "Hackathon Extension",
-    "version": "1.0",
-    "permissions": ["activeTab","scripting"], 
-    "manifest_version": 3,
-    "host_permissions": ["<all_urls>"],
-    "action": {
-      "default_popup":"index.html",
-      "default_icon": "hello_extensions.png"
-    },
-    "content_scripts": [{
-      "matches":["<all_urls>"],
+  "name": "Where's Waldo",
+  "description": "Hackathon Extension",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "pika.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
       "css": ["src/style.css"],
-      "js": ["src/Waldo.js","src/main.js"]
-    }]
+      "js": ["src/Waldo.js", "src/main.js"]
+    }
+  ]
 }
-
