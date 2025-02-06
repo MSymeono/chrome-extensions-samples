@@ -20,7 +20,7 @@
   height: 750px;
   width: 750px;
   position: relative;
-  background-image: url('assets/pikachu_background.jpg');
+  background-image: url('/assets/pikachu_background.jpg');
   background-size: cover;
   background-position: center;
 }
