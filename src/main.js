@@ -19,6 +19,7 @@ let clickCounters = 0;
 button2.addEventListener('click', () => {
   pikachu.generatePikachu();
   pikachuCounter++;
+  clickCounters++;
   if (pikachuCounter === 1) {
     alert(
       `Congratulations, you've clicked Pikachu ${pikachuCounter} time! Total Click(s): ${clickCounters}`
@@ -32,6 +33,7 @@ button2.addEventListener('click', () => {
 button3.addEventListener('click', () => {
   link.generateLink();
   linkCounter++;
+  clickCounters++;
   if (linkCounter === 1) {
     alert(
       `Congratulations, you've clicked Link ${linkCounter} time! Total Click(s): ${clickCounters}`
@@ -45,6 +47,7 @@ button3.addEventListener('click', () => {
 button.addEventListener('click', () => {
   waldo.generateWaldo();
   waldoCounter++;
+  clickCounters++;
   if (waldoCounter === 1) {
     alert(
       `Congratulations, you've clicked Waldo ${waldoCounter} time! Total Click(s): ${clickCounters}`
